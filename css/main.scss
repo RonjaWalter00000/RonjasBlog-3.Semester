@@ -1,0 +1,61 @@
+.main-wrapper {
+    padding: 70px 20%;
+}
+
+.contact {
+    padding: 10px 20px;
+    border-radius: 4px;
+    display: none;
+    border: 1px solid black;
+    &.success {
+        background-color: rgba(green, .1);
+        border-color: rgba(green, .8);
+    }
+    &.error {
+        background-color: rgba(red, .1);
+        border-color: rgba(red, .8);
+    }
+}
+
+.entry {
+    .info {
+        font-size: 80%;
+        font-weight: 400;
+        color: #6c757d;
+    }
+    .img {
+        width: 50%;
+        img {
+            width: 100%;
+        }
+    }
+    .text {
+        margin: 20px 0;
+    }
+}
+
+.comment {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    .info {
+        .name {
+            font-weight: bold;
+        }
+        .date {
+            font-size: 80%;
+            font-weight: 400;
+            color: #6c757d;
+        }
+    }
+    .text {
+        margin: 10px 0px;
+        padding: 0 0 0 20px;
+        font-style: italic;
+    }
+}
+
+.top-margin {
+    margin-top: 60px;
+}
